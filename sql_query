@@ -1,0 +1,8 @@
+--- SQL QUERY:
+
+select e.email
+from public.data_table d
+join public.email_table e
+on d.join_id = e.join_id
+where d.column_1 % 2 = 0 and d.column_2 < d.column_1 and d.column_3 like '%1';
+
